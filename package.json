@@ -1,18 +1,26 @@
 {
-  "name": "QualityQuilts",
+  "name": "qualityquilts",
   "version": "1.0.0",
   "description": "E-commerce platform for handmade quilts",
   "main": "server.js",
+  "type": "module",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "react-bootstrap": "^1.5.1",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
