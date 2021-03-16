@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Art and Mind',
     image: '/images/quilt1.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '2',
     name: 'Silent Fountain',
     image: '/images/quilt2.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '3',
     name: 'Vibrant Landscape',
     image: '/images/quilt3.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '4',
     name: 'Work and Soul',
     image: '/images/quilt4.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '5',
     name: 'The Great Unknown',
     image: '/images/quilt5.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '6',
     name: 'Misty Mountains',
     image: '/images/quilt6.jpg',
     description:
